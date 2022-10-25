@@ -1,0 +1,26 @@
+{
+  "name": "BluJoy",
+  "version": "1.0.0",
+  "description": "A common joystick interface for ESP32-BLE-Gamepad",
+  "keywords": "bluetooth gamepad joystick",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/kamicane/BluJoy.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Valerio Proietti",
+      "email": "kamicane@gmail.com",
+      "url": "https://kamicane.github.io"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/kamicane/BluJoy",
+  "dependencies": {
+    "lemmingdev/ESP32-BLE-Gamepad": "^0.5.2"
+  },
+  "frameworks": "arduino",
+  "platforms": "espressif32"
+}
